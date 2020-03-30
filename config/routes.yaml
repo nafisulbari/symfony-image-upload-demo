@@ -1,0 +1,12 @@
+
+
+index:
+    path: /
+    controller: App\Controller\MyController::index
+
+
+
+test_image_upload:
+    path: /image-upload
+    controller: App\Controller\MyController::imageUpload
+    methods: POST
