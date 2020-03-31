@@ -1,11 +1,11 @@
 
-
+#route for fetching the index page
 index:
     path: /
     controller: App\Controller\MyController::index
 
 
-
+#route for image upload
 test_image_upload:
     path: /image-upload
     controller: App\Controller\MyController::imageUpload

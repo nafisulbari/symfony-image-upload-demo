@@ -4,29 +4,20 @@
     <meta charset="UTF-8">
     <title>Image Upload Test</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css">
-
 </head>
 <body>
 
 <div class="container">
     <div class="row justify-content-md-center mt-5">
 
-
         <form action="{{ path('test_image_upload') }}" method="POST" enctype="multipart/form-data">
-
             <label>Select image to upload:</label>
-
             <input class="form-control-file" type="file" name="myfile" required> <br>
-
             <button class="btn btn-primary btn-block" type="submit">SAVE</button>
-
         </form>
 
     </div>
-
-
 </div>
-
 
 </body>
 </html>
